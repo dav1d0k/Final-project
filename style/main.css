@@ -1,0 +1,175 @@
+body .container {
+  width: 1200px;
+  margin: 0 auto; }
+
+body section {
+  padding-top: 90px;
+  padding-bottom: 90px; }
+
+body #header {
+  vertical-align: middle;
+  padding-top: 29px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  background: url(../img/intro.jpg) no-repeat center center/cover; }
+  body #header .logo {
+    font-weight: 700;
+    font-size: 30px; }
+  body #header .nav {
+    align-items: center; }
+    body #header .nav .header_nav .header_ul {
+      display: flex; }
+      body #header .nav .header_nav .header_ul .header_li {
+        margin-right: 55px;
+        list-style-type: none; }
+        body #header .nav .header_nav .header_ul .header_li .Header_a {
+          text-decoration: none;
+          font-size: 14px;
+          text-transform: uppercase;
+          color: #fff; }
+          body #header .nav .header_nav .header_ul .header_li .Header_a:hover {
+            color: #fce38a;
+            text-decoration: underline;
+            text-decoration-color: #fce38a;
+            transition: all 1s ease; }
+    body #header .nav .ico {
+      margin-top: -15px;
+      margin-right: 55px; }
+    body #header .nav .ico2 {
+      margin-top: -15px; }
+  body #header .header_deco {
+    text-align: center;
+    margin-top: 130px; }
+    body #header .header_deco .header_subtitle {
+      font-size: 72px;
+      font-family: "Kaushan Script", cursive;
+      text-transform: capitalize; }
+    body #header .header_deco .header_title {
+      font-size: 150px;
+      font-weight: 700;
+      text-transform: uppercase; }
+    body #header .header_deco .line {
+      height: 4px;
+      width: 60px;
+      background: #fff;
+      content: "";
+      display: table;
+      margin-top: 70px;
+      margin-left: 50%;
+      transform: translate(-50%, -50%); }
+    body #header .header_deco .button {
+      margin-top: 70px;
+      border: 4px solid #fff;
+      font-weight: 700;
+      font-size: 14px;
+      text-transform: uppercase;
+      width: 160px;
+      height: 40px;
+      padding-top: 7px;
+      margin-left: 50%;
+      transform: translate(-50%, -50%); }
+
+body #About .about_first {
+  text-align: center; }
+  body #About .about_first .about_subtitle {
+    font-size: 24px;
+    font-family: "Kaushan Script", cursive; }
+  body #About .about_first .about_title {
+    margin-top: 25px;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700; }
+  body #About .about_first .about_line {
+    margin-top: 40px;
+    margin-bottom: 45px;
+    display: table;
+    content: "";
+    height: 3px;
+    width: 60px;
+    background: #f38181;
+    margin-left: 50%;
+    transform: translate(-50%, -50%); }
+  body #About .about_first .about_text {
+    font-size: 15px;
+    color: #b6b6b6; }
+  body #About .about_first .qwe {
+    margin-bottom: 100px; }
+
+body #About .wwq {
+  display: flex; }
+  body #About .wwq .img_1 {
+    background: url(../img/1.png) no-repeat center center/cover;
+    min-height: 250px;
+    width: 350px; }
+  body #About .wwq .img_2 {
+    background: url(../img/2.png) no-repeat center center/cover;
+    min-height: 250px;
+    width: 350px;
+    margin-left: 30px; }
+  body #About .wwq .img_3 {
+    background: url(../img/3.png) no-repeat center center/cover;
+    min-height: 250px;
+    width: 350px;
+    margin-left: 30px; }
+
+body .aqua {
+  font-family: "Montserrat", sans-serif;
+  background: #95e1d3; }
+  body .aqua .qwww {
+    border-right: 2px solid #b5eae0; }
+  body .aqua .aqua_box {
+    padding: 85px 0;
+    border-left: 2px solid #b5eae0;
+    text-align: center;
+    color: #fff;
+    width: 213px;
+    border-left: px solid #fff;
+    display: inline-block; }
+    body .aqua .aqua_box .aqua_number {
+      font-size: 72px;
+      font-weight: 700; }
+    body .aqua .aqua_box .aqua_text {
+      font-size: 14px;
+      text-transform: uppercase; }
+
+body #service .service_first {
+  text-align: center; }
+  body #service .service_first .service_subtitle {
+    font-size: 24px;
+    font-family: "Kaushan Script", cursive; }
+  body #service .service_first .service_title {
+    margin-top: 25px;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700; }
+  body #service .service_first .service_line {
+    margin-top: 40px;
+    margin-bottom: 45px;
+    display: table;
+    content: "";
+    height: 3px;
+    width: 60px;
+    background: #f38181;
+    margin-left: 50%;
+    transform: translate(-50%, -50%); }
+
+body #service .service_sec .service_sec_line {
+  margin-top: 50px; }
+  body #service .service_sec .service_sec_line .service_sec_section {
+    display: inline-block;
+    width: 360px; }
+    body #service .service_sec .service_sec_line .service_sec_section .service_img {
+      float: left;
+      margin-right: 25px;
+      margin-bottom: 20px; }
+    body #service .service_sec .service_sec_line .service_sec_section .service_h1 {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      color: #666666;
+      text-transform: uppercase; }
+    body #service .service_sec .service_sec_line .service_sec_section .service_p {
+      color: #b6b6b6; }

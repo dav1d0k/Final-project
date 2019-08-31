@@ -1,0 +1,27 @@
+{
+  "name": "final-project",
+  "version": "1.0.0",
+  "description": "GeoLab Final Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dav1d0k/Final-project.git"
+  },
+  "keywords": [
+    "GeoLab"
+  ],
+  "author": "David kardava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dav1d0k/Final-project/issues"
+  },
+  "homepage": "https://github.com/dav1d0k/Final-project#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
+  }
+}
