@@ -264,6 +264,9 @@ body {
         }
         .work_main {
             display: flex;
+            .work_img_h {
+                height: 380px;
+            }
             .work_main_two {
                 padding: 10px 50px;
                 width: 550px;
