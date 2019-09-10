@@ -307,6 +307,8 @@ body #blog .blog_two {
   body #blog .blog_two .blog_img {
     max-width: 360px;
     position: relative; }
+    body #blog .blog_two .blog_img .blog_img_w {
+      width: 360px; }
     body #blog .blog_two .blog_img .blog_a {
       position: absolute;
       bottom: 0;
