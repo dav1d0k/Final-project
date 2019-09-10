@@ -398,6 +398,8 @@ body .footer {
       font-size: 14px;
       color: #999999;
       text-transform: uppercase; }
+    body .footer .f_3 .i_img .img_col {
+      margin-bottom: 5px; }
   body .footer .ending {
     text-align: center;
     margin-top: 50px; }
